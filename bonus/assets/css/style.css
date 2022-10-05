@@ -4,6 +4,8 @@
     --pw-normal: #256D85;
     --pw-soft: #47B5FF;
     --pw-light: #DFF6FF;
+    --pw-white: #ffffff;
+    --pw-black: #000000;
 }
 /* #endregion Colors */
 
@@ -17,6 +19,17 @@
 img {
     max-width: 100%;
 }
+
+h3, 
+main h2 {
+    color: var(--pw-dark);
+}
+
+.my_container {
+    height: calc((100vh - 63px));
+    width: 80%;
+    margin: auto;
+}
 /* #endregion Common */
 
 /* #region Utilities */
@@ -25,10 +38,17 @@ img {
 /* #region Body */
 #site_header {
     background-color: var(--pw-normal);
+    color: var(--pw-light);
+    height: 63px;
 }
 
 .logo i {
-    color: var(--pw-light);
     font-size: 40px;
 }
+
+#site_main {
+    background-color: var(--pw-soft);
+    color: var(--pw-white);
+}
+
 /* #endregion Body */

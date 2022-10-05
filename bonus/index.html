@@ -17,20 +17,41 @@
 <body>
     
     <header id="site_header">
-        <section class="logo p-2">
+        <section class="logo p-2 d-flex justify-content-between">
             <i class="fa-solid fa-lock"></i>
+            <h2>Password Generator</h2>
         </section>
         <!-- /.logo -->
     </header>
     <!-- /#site_header -->
     <main id="site_main">
-        <div id="name_user">
-        </div>
-        <!-- /.name_user -->
-        <div id="surname"></div>
-        <!-- /.surname -->
-        <div id="favourite_color"></div>
-        <!-- /.favourite_color -->
+        <section class="my_container text-center">
+            <div class="details d-flex justify-content-center py-4">
+                <div class="ask px-3">
+                    <h3>Nome: </h3>
+                    <div id="name_user"></div>
+                    <!-- /.name_user -->
+                </div>
+                <!-- /.ask -->
+                <div class="ask px-3">
+                    <h3>Cognome: </h3>
+                    <div id="surname"></div>
+                    <!-- /.surname -->
+                </div>
+                <!-- /.ask -->
+                <div class="ask px-3">
+                    <h3>Colore: </h3>
+                    <div id="favourite_color"></div>
+                    <!-- /.favourite_color -->
+                </div>
+                <!-- /.ask -->
+            </div>
+            <!-- /.details -->
+            <h2>Password Generata: </h2>
+            <div id="generator"></div>
+            <!-- /.generator -->
+        </section>
+        <!-- /.my_container -->
     </main>
     <!-- /#site_main -->
     <footer id="site_footer"></footer>
