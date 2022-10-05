@@ -1,0 +1,34 @@
+/* #region Colors */
+:root {
+    --pw-dark: #06283D;
+    --pw-normal: #256D85;
+    --pw-soft: #47B5FF;
+    --pw-light: #DFF6FF;
+}
+/* #endregion Colors */
+
+/* #region Common */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+/* #endregion Common */
+
+/* #region Utilities */
+/* #endregion Utilities */
+
+/* #region Body */
+#site_header {
+    background-color: var(--pw-normal);
+}
+
+.logo i {
+    color: var(--pw-light);
+    font-size: 40px;
+}
+/* #endregion Body */
