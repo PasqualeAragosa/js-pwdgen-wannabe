@@ -11,4 +11,3 @@
 
 let nameUser = prompt("Inserisci il tuo nome: ");
 document.getElementById("name_user").innerHTML = nameUser;
-console.log(nameUser);
